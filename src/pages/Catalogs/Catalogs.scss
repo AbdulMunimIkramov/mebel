@@ -1,0 +1,23 @@
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    & .card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        background-color: rgb(221, 221, 221);
+        & .image{
+            width: 260px;
+            height: 180px;
+        }
+        & img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-position: center;
+        }
+    }
+
+}

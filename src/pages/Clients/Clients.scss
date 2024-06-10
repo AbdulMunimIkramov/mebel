@@ -1,0 +1,29 @@
+.card_clients{
+    color: white;
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        & .card {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+            background-color: rgb(82, 105, 110);
+            & .name{
+                font-size: 30px;
+                font-weight: 600;
+            }
+            & .mail{
+                font-size: 15px;
+                font-weight: 600;
+            }
+            & .number{
+                font-size: 15px;
+                font-weight: 600;
+            }
+        }
+    
+    }    
+}
